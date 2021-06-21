@@ -1,0 +1,133 @@
+
+
+.priorety-list{
+    width: 100% ;
+    margin-top: 30px;
+}
+
+.priorety-logo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 120px;
+    background: var(--colektive-background-color);
+border-radius: 4px;
+margin-bottom: 30px;
+
+}
+.priorety-link{
+margin-bottom: 10px;
+text-align: center;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color:var(--priorety-link-color) ;
+    
+}
+
+.priorety-iten{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+    
+    color:var(--priorety-iten-color) ;  
+}
+.priorety-logo{
+background-color: #F5F4FA;
+   
+}
+
+@media screen and (min-width: 480px ) {
+    
+}
+
+@media screen and (min-width: 768px ) {
+    .priorety{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        margin-top: -30px;
+         margin-left: -30px;
+    }
+.priorety-list{
+    width: calc((100% - 60px) / 2);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+}
+@media screen and (min-width: 1200px ) {
+    .priorety{
+        flex-wrap: nowrap;
+    }
+    
+.priorety-link{
+text-align: start;
+}
+
+}
+
+// .section-priorety{
+//      padding-top: 94px; 
+// }
+
+// .priorety{
+//   display: flex;
+   
+//   
+
+
+// &-list{
+// width: 270px;
+// margin-left: 30px;
+// padding-left: 0px;
+// }
+
+
+
+
+// &-link{
+// margin-bottom: 10px;
+
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+    
+//     color:var(--priorety-link-color) ;
+    
+// }
+// }
+
+// .priorety-iten{
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+    
+//     letter-spacing: 0.03em;
+    
+//     color:var(--priorety-iten-color) ;  
+// }
+// .priorety-logo-list{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//     width: 270px;
+//     height: 120px;
+//     background-color: #F5F4FA;
+//     margin-bottom: 30px;
+// }
+
+// .priorety-logo{
+// background-color: #F5F4FA;
+   
+// }

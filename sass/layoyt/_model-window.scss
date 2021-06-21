@@ -1,0 +1,195 @@
+// .backdrop{
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     position: fixed;
+//     width: 100vw;
+//     height: 100vh;
+//     z-index: 100;
+//     background-color: rgba(0, 0, 0, 0.2);
+
+//     opacity: 1;
+//     visibility: visible;
+//     pointer-events: auto;
+// transition: opacity 250ms linear,visibility 250ms linear;
+
+    
+// }
+// .button-modal{
+// position: absolute;
+// transform: translate(-50%,-50%);
+//     top: 50%;
+//     left: 50%;
+//     width:  528px;
+//     height: 581px;
+//     border-radius: 4px;
+//     background-color: #FFFFFF;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
+//     padding: 40px;
+// }
+
+// .button-modal-close{
+//    position: absolute;
+//    top: 8px;
+//    right: 8px;
+//     width: 30px;
+//     height: 30px;
+//     border-radius: 50%;
+//     padding: 0;
+//     background-color: transparent;
+//     border:  1px solid rgba(0, 0, 0, 0.1);
+//     cursor: pointer;
+ 
+
+// }
+// .button-modal-close:hover,
+// .button-modal-close:focus{
+//     fill: #2196F3 ;
+// }
+
+// .is-hidden{
+//     opacity: 0;
+//     visibility: hidden;
+//     pointer-events: none;
+// }
+// .form-model-heder{
+//     font-family:var(--text-body);
+// font-style: normal;
+// font-weight: 700;
+// font-size: 20px;
+// line-height: 1.15;
+// text-align: center;
+// letter-spacing: 0.03em;
+
+// color: #212121;
+// margin-bottom: 12px;
+// cursor: pointer;
+
+// }
+// .form-model{
+//     display: flex;
+//     flex-direction: column;
+// }
+// .form-model-input{
+//       width: 100%;
+//       height: 40px;
+//       padding-left: 42px;
+
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+//     box-sizing: border-box;
+//     border-radius: 4px;
+//     cursor: pointer;
+// }
+// .form-model-wraper{
+//     display: block;
+// position: relative;
+// }
+
+// .form-model-label{
+    
+//     margin-bottom: 10px;
+// }
+
+// .form-model-input-logo{
+//     position: absolute;
+//     display: block;
+// top: 50%;
+// transform: translateY(-50%);
+// left: 15px;
+// cursor: pointer;
+// }
+// .form-model-input:focus{
+//     border-color: var(--logo-color);
+//     outline: none;
+    
+//     transition-property: border-color ;
+//     transition-duration: 250ms;
+// transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+// }
+// .form-model-input:focus + .form-model-input-logo{
+//     fill: var(--logo-color);
+
+//     transition-property: fill;
+//     transition-duration: 250ms;
+// transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    
+// }
+// .form-model-masage{
+
+// width:100%;
+// height:120px;
+
+//     border: 1px solid rgba(33, 33, 33, 0.2);
+//     box-sizing: border-box;
+//     border-radius: 4px;
+//     resize: none;
+//     padding: 12px 16px;
+//     margin-top: 4px;
+
+// }
+// .form-model-masage::placeholder{
+
+//     font-family: var(--text-body);
+
+// font-size: 14px;
+// line-height: 1.14;
+// letter-spacing: 0.01em;
+
+// color: rgba(117, 117, 117, 0.5);
+// cursor: pointer;
+
+// }
+// .form-model-masage:focus{
+//     outline: none;
+//     border-color: var(--logo-color);
+
+//     transition-property: border-color ;
+//     transition-duration: 250ms;
+// transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+// }
+
+  
+// .form-model-checkbox-policy{
+// padding-left: 25px;
+
+//     font-size: 14px;
+// line-height: 1.71;
+//     color: #757575;
+//     margin-top: 20px;
+// }
+
+// .form-model-checkbox-policy::before{
+//     content: "" ;
+//     display: inline-block;
+//     vertical-align: middle;
+//     width: 16px;
+//     height: 15px;
+//     border: 2px solid #212121;
+//     cursor: pointer;
+//     margin-right: 7px;
+// }
+
+
+
+// .form-model-checkbox:checked + .form-model-checkbox-policy::before{
+// border-color: var(--logo-color);
+//     background-color: var(--logo-color);
+// background-image: url(../images/icons.svg/vektor-1.svg);
+ 
+//    }
+// .model-for-btn{
+//     align-self: center;
+//     background: var(--logo-color);
+// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+// color: #FFFFFF;
+// border-color: var(--logo-color);
+// border-radius: 4px;
+// padding: 10px 55px;
+// margin-top: 30px;
+// cursor: pointer;
+// }
