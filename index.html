@@ -48,6 +48,16 @@
 
 </ul>
 </nav>
+
+<button type="button" class="header__menu-buton" data-menu-button>
+<svg width="40" height="40" class="header__menu-buton-icon">
+<use  href="./images/icons.svg/burger-1.svg#burger-1">
+
+</use>
+</svg>
+
+</button>
+
 <ul class="mail__tel list">
    <li class="mail__tel-list">
      <a class="mail__tel-link link" href="mailto:info@devstudio.com">
@@ -67,11 +77,56 @@
 
 </ul>
 </div>
+
+<div class="mobile-menu" data-menu>
+    
+<div class="mobile-menu-conteiner">
+    <button type="button" class="mobile-menu-close-buton" data-menu-close>
+        <svg width="11" height="11" class="mobile__menu-close-buton-icon">
+            <use href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+
+    </button>
+<ul class="mobile__menu-list list">
+<li class="mobile__menu-list-item-studio"><a href="" class="mobile__menu-link-studio link">Студия</a>  
+</li>
+<li class="mobile__menu-list-item"><a href="" class="mobile__menu-link link">Портфолио</a>  
+</li>
+<li class="mobile__menu-list-item"><a href="" class="mobile__menu-link link">Контакты</a>  
+</li>
+</ul>
+</div>
+<ul class="mobile__menu-tel-mail list">
+    <li class="mobile__menu-tel-mail-list">
+      <a class="mobile__menu-tel-mail-mail link" href="mailto:info@devstudio.com">
+     
+         info@devstudio.com</a> </li>
+ 
+    <li class="mobile__menu-tel-mail-list">
+     <a class="mobile__menu-tel-mail-linc-tel link" href="tel:+380961111111">  
+ 
+         +38 096 111 11 11</a></li>
+ 
+ </ul>
+<div class="mobile__menu-social">
+    <ul class="mobile__menu-social-list list">
+        <li class="mobile__menu-social-link"><a href="" class="mobile__menu-social-seti link">Instagram</a></li>
+
+        <li class="mobile__menu-social-link"><a href="" class="mobile__menu-social-seti link">Twitter</a></li>
+
+        <li class="mobile__menu-social-link"><a href="" class="mobile__menu-social-seti link">Facebook</a></li>
+
+        <li class="mobile__menu-social-link"><a href="" class="mobile__menu-social-seti link">LinkedIn</a></li>
+    </ul>
+</div>
+
+
+</div>
     </header>
     <!--Шапка герой-->
 
+  <!--
 
-<!--
     
  <section class="hero-sektion ">
 <div class="box-hero ">
@@ -182,16 +237,36 @@
 </div>
 
         </section>
-    <!--наш колектив -->
-<!--
+    <!--collective -->
+
 
     <section class="collective">
 <div class="collective-bloc container">
 <h2 class="collective-list">Наша команда</h2>
 
-<ul class="collective-list-name  list">
-<li class="collective-pipl"><img src="./images/galari2/img.jpg" alt="сотрудник компани" width="270" height="260" >
-<div class="collective-name-profesion">
+<ul class="collective-list-name list">
+   <li class="collective-pipl ">
+
+<picture class="collective-pipl-foto ">
+    
+
+<source
+        srcset=" ./images/galari2/img-1-270.jpg 1x, ./images/galari2/img-1-270-@2x.jpg 2x"
+        media="(min-width: 1200px)">
+        <source
+        srcset=" ./images/galari2/img-1-354.jpg 1x, ./images/galari2/img-1-354-@2x.jpg 2x"
+        media="(min-width: 768px)">
+        <source
+        srcset="./images/galari2/img-1-450.jpg 1x, ./images/galari2/img-1-450-@2x.jpg 2x"
+        media="(min-width: 480px)">
+        <source
+        srcset="./images/galari2/img-1-270.jpg 1x, ./images/galari2/img-1-270-@2x.jpg 2x"
+        media="(min-width: 320px)">
+
+        <img class="collective-pipl-foto-logo" src="#" alt="сотрудник компани">
+    </picture>
+
+    <div class="collective-name-profesion">
     <h3 class="collective-name">Игорь Демьяненко</h3> 
 
     <p class="collective-profesion">Product Designer</p>  
@@ -200,7 +275,7 @@
 
         <li class="social-list-item">
 <a href="" class="social-list-link link">
-<svg class="social-list-icon">
+<svg class="social-list-icon" width="20" height="20">
     <use class="social-list-icon-logotip" href="./images/icons.svg/sprite-soc-seti.svg#icon-instagram"></use>
 </svg>
 </a>
@@ -208,7 +283,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use class="social-list-icon-logotip" href="./images/icons.svg/sprite-soc-seti.svg#icon-twitter"></use>
                 </svg>
                 </a>
@@ -216,7 +291,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon" >
+                <svg class="social-list-icon" width="20" height="20" >
                     <use class="social-list-icon-logotip" href="./images/icons.svg/sprite-soc-seti.svg#icon-facebook"></use>
                 </svg>
                 </a>
@@ -224,7 +299,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use class="social-list-icon-logotip" href="./images/icons.svg/sprite-soc-seti.svg#icon-linkedin"></use>
                     
                 </svg>
@@ -237,8 +312,33 @@
 </div>
 </li>
 
+
+
+
+
 <li class="collective-pipl">
-    <img src="./images/galari2/img-1.jpg" alt="сотрудник компани" width="270" height="260" >
+
+    <picture class="collective-pipl-foto ">
+
+        <source
+                srcset="./images/galari2/img-2-270.jpg 1x, ./images/galari2/img-2-270-@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/galari2/img-2-354.jpg 1x, ./images/galari2/img-2-354-@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/galari2/img-2-450.jpg 1x, ./images/galari2/img-2-450-@2x.jpg 2x"
+                media="(min-width: 480px)">
+                <source
+                srcset="./images/galari2/img-2-270.jpg 1x, ./images/galari2/img-2-270-@2x.jpg 2x"
+                media="(min-width: 320px)">
+        
+                <img class="collective-pipl-foto-logo" src="#" alt="сотрудник компани">
+            </picture>
+
+
+
+
 <div class="collective-name-profesion">
     <h3 class="collective-name">Ольга Репина</h3>
 
@@ -248,7 +348,7 @@
 
         <li class="social-list-item">
 <a href="" class="social-list-link link">
-<svg class="social-list-icon">
+<svg class="social-list-icon" width="20" height="20" width="20" height="20">
     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-instagram"></use>
 </svg>
 </a>
@@ -256,7 +356,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-twitter"></use>
                 </svg>
                 </a>
@@ -264,7 +364,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-facebook"></use>
                 </svg>
                 </a>
@@ -272,7 +372,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-linkedin"></use>
                     
                 </svg>
@@ -285,7 +385,24 @@
 </div>
 </li>
 <li class="collective-pipl">
-    <img src="./images/galari2/img-2.jpg" alt="сотрудник компани" width="270" height="260" >
+    <picture class="collective-pipl-foto ">
+
+        <source
+                srcset="./images/galari2/img-3-270.jpg 1x, ./images/galari2/img-3-270-@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/galari2/img-3-354.jpg 1x, ./images/galari2/img-3-354-@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/galari2/img-3-450.jpg 1x, ./images/galari2/img-3-450-@2x.jpg 2x"
+                media="(min-width: 480px)">
+                <source
+                srcset="./images/galari2/img-3-270.jpg 1x, ./images/galari2/img-3-270-@2x.jpg 2x"
+                media="(min-width: 320px)">
+        
+                <img class="collective-pipl-foto-logo" src="#" alt="сотрудник компани">
+            </picture>
+
 <div class="collective-name-profesion">
     <h3 class="collective-name"> Николай Тарасов </h3>
 
@@ -295,7 +412,7 @@
 
         <li class="social-list-item">
 <a href="" class="social-list-link link">
-<svg class="social-list-icon">
+<svg class="social-list-icon" width="20" height="20">
     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-instagram"></use>
 </svg>
 </a>
@@ -303,7 +420,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-twitter"></use>
                 </svg>
                 </a>
@@ -311,7 +428,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-facebook"></use>
                 </svg>
                 </a>
@@ -319,7 +436,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-linkedin"></use>
                     
                 </svg>
@@ -332,7 +449,24 @@
 </div>
 </li>
 <li class="collective-pipl">
-    <img src="./images/galari2/img-3.jpg" alt="сотрудник компани" width="270" height="260" >
+    <picture class="collective-pipl-foto ">
+
+        <source
+                srcset="./images/galari2/img-4-270.jpg 1x, ./images/galari2/img-4-270-@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/galari2/img-4-354.jpg 1x, ./images/galari2/img-4-354-@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/galari2/img-4-450.jpg 1x, ./images/galari2/img-4-450-@2x.jpg 2x"
+                media="(min-width: 480px)">
+                <source
+                srcset="./images/galari2/img-4-270.jpg 1x, ./images/galari2/img-4-270-@2x.jpg 2x"
+                media="(min-width: 320px)">
+        
+                <img class="collective-pipl-foto-logo" src="#" alt="сотрудник компани">
+            </picture>
+
 <div class="collective-name-profesion">
     <h3 class="collective-name">Михаил Ермаков</h3>
 
@@ -342,7 +476,7 @@
 
         <li class="social-list-item">
 <a href="" class="social-list-link link">
-<svg class="social-list-icon">
+<svg class="social-list-icon" width="20" height="20">
     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-instagram"></use>
 </svg>
 </a>
@@ -350,7 +484,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-twitter"></use>
                 </svg>
                 </a>
@@ -358,7 +492,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-facebook"></use>
                 </svg>
                 </a>
@@ -366,7 +500,7 @@
 
         <li class="social-list-item">
             <a href="" class="social-list-link link">
-                <svg class="social-list-icon">
+                <svg class="social-list-icon" width="20" height="20">
                     <use href="./images/icons.svg/sprite-soc-seti.svg#icon-linkedin"></use>
                     
                 </svg>
@@ -382,8 +516,8 @@
 </div>
 </section>
              <!--client-->
-<!--
-             
+
+             <!--
 <section class="client container">
 <div class="client-item">
     <h2 class="client-cent">Постоянные клиенты</h2>
@@ -449,7 +583,7 @@
 </section>
 </main>
 <!--подвал-->
-
+<!--
     <footer class="footer ">
 <div class="footer-bloc footer-bloc-content container">
      <div class="footer-bloc-adres">
@@ -591,7 +725,9 @@
 </form>
 </div>
 </div>
-<script src="./js/model.js"></script>
+<script src="./js/model.js"></script>-->
+<script src="./js/menu.js"></script>
+
     </body>
   </html>
 
