@@ -1470,12 +1470,7 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logotip-porfolio-logo .logotip-porfolio-logo {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.porfolio-logotip-overlay {
+.logotip-porfolio-logo .porfolio-logotip-overlay {
   display: block;
   width: 100%;
   transition-property: box-shadow;
@@ -1483,9 +1478,27 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.porfolio-logotip-overlay:hover .porfolio-overlay,
-.porfolio-logotip-overlay:focus .porfolio-overlay {
+.logotip-porfolio-logo .porfolio-logotip-overlay:hover .porfolio-overlay,
+.logotip-porfolio-logo .porfolio-logotip-overlay:focus .porfolio-overlay {
   transform: translateY(0%);
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .logotip-porfolio-logo .porfolio-logotip-overlay {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logotip-porfolio-logo {
+    width: calc((768px - 60px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logotip-porfolio-logo {
+    width: calc((1200px - 90px) / 3);
+  }
 }
 
 .logotip-porfolio-logo-text {
