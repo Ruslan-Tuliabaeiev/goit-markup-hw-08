@@ -1470,15 +1470,12 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .logotip-porfolio-logo .logotip-porfolio-logo {
-    width: calc((100% - 60px) / 2);
-    margin-top: 30px;
-    margin-left: 30px;
-  }
+.logotip-porfolio-logo .logotip-porfolio-logo {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
-.logotip-porfolio-logo .porfolio-logotip-overlay {
+.porfolio-logotip-overlay {
   display: block;
   width: 100%;
   transition-property: box-shadow;
@@ -1486,26 +1483,8 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) {
-  .logotip-porfolio-logo .porfolio-logotip-overlay {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .logotip-porfolio-logo .porfolio-logotip-overlay {
-    width: calc((768px - 60px) / 2);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .logotip-porfolio-logo .porfolio-logotip-overlay {
-    width: calc((1200px - 90px) / 3);
-  }
-}
-
-.logotip-porfolio-logo:hover .porfolio-overlay,
-.logotip-porfolio-logo:focus .porfolio-overlay {
+.porfolio-logotip-overlay:hover .porfolio-overlay,
+.porfolio-logotip-overlay:focus .porfolio-overlay {
   transform: translateY(0%);
 }
 
