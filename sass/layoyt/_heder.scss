@@ -60,7 +60,7 @@ animation-iteration-count: 2;
     background-color: transparent;
     border: none;
     padding: 0;
-
+margin-right: 20px;
     fill: #212121;
 
     &:hover,
@@ -146,6 +146,7 @@ display: flex;
     color:var(--logo-color)
 }
 }
+
 
 .mail__tel-link {
     font-style: normal;
