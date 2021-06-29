@@ -1,314 +1,320 @@
 
 
-// .hero {
-//     margin: 0 auto;
-//     padding-top: 118px;
-//     padding-bottom: 118px;
-//     max-width: 100%;
+.hero {
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    max-width: 100%;
   
-//     background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//       url(../images/logo-phone-2.jpg);
-//     background-position: center;
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../prioretyu/tel-1.jpg);
+    background-position: center;
 
 
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-color: #c4c4c4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #c4c4c4;
   
-//     .container {
-//       text-align: center;
-//     }
-//   }
+    .container {
+      text-align: center;
+    }
+  }
  
 
 
 
-//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-phone-2.jpg);
-//     }
-//   }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/tel-1-@2x.jpg);
+    }
+  }
   
-//   @media screen and (min-width: 480px) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-pln.jpg);
-//     }
-//   }
+  @media screen and (min-width: 480px) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/tel-1.jpg);
+    }
+  }
 
 
 
 
 
 
-//   @media (min-device-pixel-ratio: 2) and (min-width: 480px),
-//     (min-resolution: 192dpi) and (min-width: 480px),
-//     (min-resolution: 2dppx) and (min-width: 480px) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-pln-@2x.jpg);
-//     }
-//   }
+  @media (min-device-pixel-ratio: 2) and (min-width: 480px),
+    (min-resolution: 192dpi) and (min-width: 480px),
+    (min-resolution: 2dppx) and (min-width: 480px) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/tel-1-@2x.jpg);
+    }
+  }
   
 
 
 
-//   @media screen and (min-width: 768px) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-pln.jpg);
-//     }
-//   }
-//   @media (min-device-pixel-ratio: 2) and (min-width: 768px),
-//     (min-resolution: 192dpi) and (min-width: 768px),
-//     (min-resolution: 2dppx) and (min-width: 768px) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-pln-@2x.jpg);
-//     }
-//   }
+  @media screen and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/pln-1.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+    (min-resolution: 192dpi) and (min-width: 768px),
+    (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/pln-1-@2x.jpg);
+    }
+  }
   
-//   @media screen and (min-width: 1200px) {
-//     .hero {
-//       padding-top: 200px;
-//       padding-bottom: 200px;
-//       max-width: 1600px;
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-tel.jpg);
-//     }
-//   }
+  @media screen and (min-width: 1200px) {
+    .hero {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      max-width: 1600px;
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/komp-1.jpg);
+    }
+  }
 
 
-//   @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
-//     (min-resolution: 192dpi) and (min-width: 1200px),
-//     (min-resolution: 2dppx) and (min-width: 1200px) {
-//     .hero {
-//       background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/logo-1-tel.jpg);
+  @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    (min-resolution: 192dpi) and (min-width: 1200px),
+    (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../prioretyu/komp-1-@x.jpg);
+    }
+  }
+  
+  .hero__title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.36;
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  
+    color: var(--logo-1-footercolor);
+  
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    @media screen and (min-width: 480px) {
+      font-size: 26px;
+      width: 360px;
+    }
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      width: 696px;
+    }
+  }
+
+
+  .hero__modal-btn {
+    
+      font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+   
+    letter-spacing: 0.06em;
+  
+    color: var(--logo-1-footercolor);
+    background-color: var(--logo-color); 
+    cursor: pointer;
+  
+    display: inline-block;
+    padding: 10px 32px;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    transition-property: background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--logo-color);
+    }
+  }
+
+
+
+
+
+
+
+
+
+//     .hero-sektion{
+       
+       
+//         padding-bottom: 94px;
+//         max-width: 100%;
+        
 //     }
-//   }
+    // .box-hero{
   
-//   .hero__title {
-//     font-weight: 900;
-//     font-size: 20px;
-//     line-height: 1.36;
-  
+   
+    //   text-align: center;
+    //     background-size: cover;
+    //     background-color: rgba(47, 48, 58, 0.4);
+    //     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    //     url("../prioretyu/tel-1.jpg");
+    //     background-color:  #C4C4C4;
+    // }
+
+//     .hero-item {
 //     text-align: center;
+//     }
+//     .modal-btn {
+//     margin-top: 40px;
+//     text-align: center;
+//     }
+    
+//     .hero-item {
+       
+// text-transform: uppercase;
+// text-align: center;
+//     font-weight: 900;
+//     font-size: 26px;
+//     line-height: 1.36;
+    
 //     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-  
+    
 //     color: var(--logo-1-footercolor);
-  
-//     width: 280px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     margin-bottom: 30px;
-//     @media screen and (min-width: 480px) {
-//       font-size: 26px;
-//       width: 360px;
+    
 //     }
-//     @media screen and (min-width: 768px) {
-//     }
-
-//     @media screen and (min-width: 1200px) {
-//       font-size: 44px;
-//       width: 696px;
-//     }
-//   }
-
-
-//   .hero__modal-btn {
-//     font-family: inherit;
-  
-//     @include font(16px, 700, 30px);
-  
-//     letter-spacing: 0.06em;
-  
+    
+    
+//     .modal-btn {
+      
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.9;
 //     color: var(--logo-1-footercolor);
-//     background-color: var(--logo-color); 
+//      background-color: var(--logo-color);  
 //     cursor: pointer;
-  
-//     display: inline-block;
-//     padding: 10px 32px;
-//     border: transparent;
-//     border-radius: 4px;
+    
 //     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  
-//     transition-property: background-color, box-shadow;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//     &:hover,
-//     &:focus {
-//       color: var(--logo-color);
+//     border-radius: 4px;
+//     padding-bottom: 10px;
+//     padding-top: 10px;
+//     padding-left: 25px;
+//     padding-right: 25px;
+//     margin-top: 20px;
+    
 //     }
-//   }
-
-
-
-
-
-    .hero-sektion{
-       
-       
-        padding-bottom: 94px;
-        max-width: 100%;
-        
-    }
-    .box-hero{
-  
-   
-      text-align: center;
-        background-size: cover;
-        background-color: rgba(47, 48, 58, 0.4);
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        url("../images/logo-1-tel.jpg");
-        background-color:  #C4C4C4;
-    }
-
-    .hero-item {
-    text-align: center;
-    }
-    .modal-btn {
-    margin-top: 40px;
-    text-align: center;
-    }
+//     @media screen and (min-width: 480px ){
     
-    .hero-item {
-       
-text-transform: uppercase;
-text-align: center;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.36;
-    
-    letter-spacing: 0.06em;
-    
-    color: var(--logo-1-footercolor);
-    
-    }
-    
-    
-    .modal-btn {
-      
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    color: var(--logo-1-footercolor);
-     background-color: var(--logo-color);  
-    cursor: pointer;
-    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 20px;
-    
-    }
-    @media screen and (min-width: 480px ){
-    
-        .hero-sektion {
+//         .hero-sektion {
            
-            text-align: center;
-        }
-        .box-hero {
+//             text-align: center;
+//         }
+//         .box-hero {
         
-         padding-top: 130px;
-            padding-bottom: 130px;
+//          padding-top: 130px;
+//             padding-bottom: 130px;
         
-            max-width: 1600px;
-            background-size: cover;
-            background-color: rgba(47, 48, 58, 0.4);
-            background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-            url( ../images/logo-1-tel.jpg)
+//             max-width: 1600px;
+//             background-size: cover;
+//             background-color: rgba(47, 48, 58, 0.4);
+//             background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+//             url( ../images/logo-1-tel.jpg)
 
-            // background-color:  #C4C4C4;
-        }
-        }
+//             // background-color:  #C4C4C4;
+//         }
+//         }
 
 
-@media screen and (min-width: 768px ){
+// @media screen and (min-width: 768px ){
 
-.hero-sektion{
+// .hero-sektion{
    
-    text-align: center;
-}
-.box-hero{
+//     text-align: center;
+// }
+// .box-hero{
 
- padding-top: 150px;
-    padding-bottom: 150px;
+//  padding-top: 150px;
+//     padding-bottom: 150px;
 
-    max-width: 1600px;
-    background-size: cover;
-    background-color: rgba(47, 48, 58, 0.4);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+//     max-width: 1600px;
+//     background-size: cover;
+//     background-color: rgba(47, 48, 58, 0.4);
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 
-    url("../images/logo-1-pln.jpg") ;
-    background-color:  #C4C4C4;
-}
+//     url("../images/logo-1-pln.jpg") ;
+//     background-color:  #C4C4C4;
+// }
 
-}
+// }
 
-@media screen and (min-width: 1200px ){
+// @media screen and (min-width: 1200px ){
 
-    .hero-sektion{
+//     .hero-sektion{
        
-        text-align: center;
-    }
-    .box-hero{
-     max-width: 1600px;
-    margin: 0 auto;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        background-size: cover;
-        background-color: rgba(47, 48, 58, 0.4);
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+//         text-align: center;
+//     }
+//     .box-hero{
+//      max-width: 1600px;
+//     margin: 0 auto;
+//         padding-top: 200px;
+//         padding-bottom: 200px;
+//         background-size: cover;
+//         background-color: rgba(47, 48, 58, 0.4);
+//         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     
-        url("../images/logo-1-tel-@2x.jpg") ;
-        background-color:  #C4C4C4;
-    }
-    .hero-item{
-    text-align: center;
-    }
-    .modal-btn{
-    margin-top: 40px;
-    text-align: center;
-    }
+//         url("../images/logo-1-tel-@2x.jpg") ;
+//         background-color:  #C4C4C4;
+//     }
+//     .hero-item{
+//     text-align: center;
+//     }
+//     .modal-btn{
+//     margin-top: 40px;
+//     text-align: center;
+//     }
     
-    .hero-item{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+//     .hero-item{
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
     
-    letter-spacing: 0.06em;
+//     letter-spacing: 0.06em;
     
-    color: var(--logo-1-footercolor);
+//     color: var(--logo-1-footercolor);
     
-    }
+//     }
     
     
-    .modal-btn{
+//     .modal-btn{
       
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    color: var(--logo-1-footercolor);
-     background-color: var(--logo-color);  
-    cursor: pointer;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.9;
+//     color: var(--logo-1-footercolor);
+//      background-color: var(--logo-color);  
+//     cursor: pointer;
     
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 40px;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;
+//     padding-bottom: 10px;
+//     padding-top: 10px;
+//     padding-left: 25px;
+//     padding-right: 25px;
+//     margin-top: 40px;
     
-    }
-    }
+//     }
+//     }
 
 

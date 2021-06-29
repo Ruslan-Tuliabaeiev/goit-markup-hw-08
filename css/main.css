@@ -628,128 +628,116 @@ ol {
   }
 }
 
-.hero-sektion {
-  padding-bottom: 94px;
+.hero {
+  margin: 0 auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
   max-width: 100%;
-}
-
-.box-hero {
-  text-align: center;
+  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/tel-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(47, 48, 58, 0.4);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/logo-1-tel.jpg");
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
-.hero-item {
+.hero .container {
   text-align: center;
 }
 
-.modal-btn {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.hero-item {
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: var(--logo-1-footercolor);
-}
-
-.modal-btn {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  color: var(--logo-1-footercolor);
-  background-color: var(--logo-color);
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-top: 20px;
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/tel-1-@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 480px) {
-  .hero-sektion {
-    text-align: center;
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/tel-1.jpg);
   }
-  .box-hero {
-    padding-top: 130px;
-    padding-bottom: 130px;
-    max-width: 1600px;
-    background-size: cover;
-    background-color: rgba(47, 48, 58, 0.4);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/logo-1-tel.jpg);
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 480px), (min-resolution: 192dpi) and (min-width: 480px), (min-resolution: 2dppx) and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/tel-1-@2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .hero-sektion {
-    text-align: center;
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/pln-1.jpg);
   }
-  .box-hero {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    max-width: 1600px;
-    background-size: cover;
-    background-color: rgba(47, 48, 58, 0.4);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/logo-1-pln.jpg");
-    background-color: #C4C4C4;
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/pln-1-@2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .hero-sektion {
-    text-align: center;
-  }
-  .box-hero {
-    max-width: 1600px;
-    margin: 0 auto;
+  .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-size: cover;
-    background-color: rgba(47, 48, 58, 0.4);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/logo-1-tel-@2x.jpg");
-    background-color: #C4C4C4;
+    max-width: 1600px;
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/komp-1.jpg);
   }
-  .hero-item {
-    text-align: center;
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../prioretyu/komp-1-@x.jpg);
   }
-  .modal-btn {
-    margin-top: 40px;
-    text-align: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--logo-1-footercolor);
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__title {
+    font-size: 26px;
+    width: 360px;
   }
-  .hero-item {
-    font-weight: 900;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
     font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    color: var(--logo-1-footercolor);
+    width: 696px;
   }
-  .modal-btn {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    color: var(--logo-1-footercolor);
-    background-color: var(--logo-color);
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 40px;
-  }
+}
+
+.hero__modal-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--logo-1-footercolor);
+  background-color: var(--logo-color);
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 32px;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__modal-btn:hover, .hero__modal-btn:focus {
+  color: var(--logo-color);
 }
 
 .priorety-list {
