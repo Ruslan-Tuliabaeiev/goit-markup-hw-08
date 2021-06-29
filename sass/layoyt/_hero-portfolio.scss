@@ -142,7 +142,8 @@ justify-content: center;
     width: calc((768px - 60px) / 2);
   }
   @media screen and (min-width: 1200px) {
-    width: calc((1200px - 90px) / 3);
+    // width: calc((1200px - 90px) / 3);
+    width: calc((768px - 60px) / 2);
   }
 }
 .projects__list__item__image {
