@@ -1,8 +1,8 @@
 
     .hero-sektion{
        
-        padding-top: 118px;
-        padding-bottom: 118px;
+       
+        padding-bottom: 94px;
         max-width: 100%;
         
     }
@@ -13,19 +13,19 @@
         background-size: cover;
         background-color: rgba(47, 48, 58, 0.4);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-
-        url("../../images/priorety/logo-phone-1.jpg") ;
+        url("../images/logo-1-tel.jpg");
         background-color:  #C4C4C4;
     }
-    .hero-item{
+
+    .hero-item {
     text-align: center;
     }
-    .modal-btn{
+    .modal-btn {
     margin-top: 40px;
     text-align: center;
     }
     
-    .hero-item{
+    .hero-item {
        
 text-transform: uppercase;
 text-align: center;
@@ -40,7 +40,7 @@ text-align: center;
     }
     
     
-    .modal-btn{
+    .modal-btn {
       
     font-style: normal;
     font-weight: 700;
@@ -60,12 +60,12 @@ text-align: center;
     
     }
     @media screen and (min-width: 480px ){
-
-        .hero-sektion{
+    
+        .hero-sektion {
            
             text-align: center;
         }
-        .box-hero{
+        .box-hero {
         
          padding-top: 130px;
             padding-bottom: 130px;
@@ -74,13 +74,11 @@ text-align: center;
             background-size: cover;
             background-color: rgba(47, 48, 58, 0.4);
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        
-            url("../../images/priorety/logo-laptop-1.jpg") ;
-            background-color:  #C4C4C4;
+            url( ../images/logo-1-tel.jpg)
+
+            // background-color:  #C4C4C4;
         }
-        
         }
-        
 
 
 @media screen and (min-width: 768px ){
@@ -99,7 +97,7 @@ text-align: center;
     background-color: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 
-    url("../../images/priorety/logo-laptop-1.jpg") ;
+    url("../images/logo-1-pln.jpg") ;
     background-color:  #C4C4C4;
 }
 
@@ -120,7 +118,7 @@ text-align: center;
         background-color: rgba(47, 48, 58, 0.4);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     
-        url("../../images/priorety/logo-laptop-1.jpg") ;
+        url("../images/logo-1-tel-@2x.jpg") ;
         background-color:  #C4C4C4;
     }
     .hero-item{
